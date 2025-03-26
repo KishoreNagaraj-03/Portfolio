@@ -7,7 +7,7 @@
 [Visit My Portfolio](https://kishoreportfolio-bay.vercel.app/)
 
 ## 📸 Screenshots
-![Portfolio snapshots](https://github.com/KishoreNagaraj-03/Portfolio/tree/main/Portfolio_Snapshots)
+[Portfolio snapshots](https://github.com/KishoreNagaraj-03/Portfolio/tree/main/Portfolio_Snapshots)
 
 ## 📌 Features
 ✅ Responsive design  
