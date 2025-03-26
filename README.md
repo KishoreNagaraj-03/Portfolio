@@ -18,7 +18,11 @@
 ## 🛠️ Tech Stack
 - **Frontend:** HTML, CSS, JavaScript  
 - **Libraries:** jQuery, Bootstrap  
-- **Hosting:** GitHub Pages / Vercel / Netlify  
+- **Hosting:** GitHub Pages / Vercel / Netlify
+
+## 📞 Contact Me  
+📧 **Email:** [kishorenagarajofficial@gmail.com](mailto:kishorenagarajofficial@gmail.com)  
+🔗 **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/kishorenagaraj)
 
 ## 🚀 Deployment
 To run the project locally:
@@ -27,8 +31,6 @@ git clone https://github.com/KishoreNagaraj-03/Portfolio.git
 cd Portfolio
 open index.html
 
-## 📞 Contact Me  
-📧 **Email:** [kishorenagarajofficial@gmail.com](mailto:kishorenagarajofficial@gmail.com)  
-🔗 **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/kishorenagaraj)  
+  
 
 
