@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Kishore Nagaraj</title>
+    <meta
+      name="description"
+      content="Personal portfolio showcasing creative work and professional experience"
+    />
+    <meta name="author" content="Kishore Nagaraj" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <script type="module" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Portfolio</div>
+        <div class="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <h1 class="fade-in">Kishore Nagaraj</h1>
+          <p class="fade-in">Designer • Developer • Storyteller</p>
+          <a href="#projects" class="cta-button fade-in">View My Work</a>
+        </div>
+        <div class="hero-image fade-in">
+          <img src="./Assets/Kishore_Formal(Grey).webp" alt="Creative workspace" />
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="about" class="about">
+        <div class="section-header">
+          <h2>About Me</h2>
+          <div class="separator"></div>
+        </div>
+        <div class="about-content">
+          <div class="about-image fade-in">
+            <img
+              src="./Assets/man.jpg"
+              alt="Professional portrait"
+            />
+          </div>
+          <div class="about-text">
+            <h3 class="fade-in">
+              Ideas aren’t static, they evolve with me
+            </h3>
+            <p class="fade-in">
+              I'm an aspiring architect and certified design thinker with
+              hands-on experience in designing and developing enterprise
+              technology solutions. My expertise spans mobile, web, and
+              AI-driven applications, blending strategy, engineering, and
+              industry best practices to create impactful digital experiences.
+            </p>
+            <p class="fade-in">
+              With a strong foundation in UI/UX, mobility, AI, and cloud
+              technologies, I specialize in building intelligent and scalable
+              solutions. My approach integrates design thinking, layered
+              thinking, and agile methodologies to drive innovation and
+              efficiency.
+            </p>
+            <p class="fade-in">
+              Passionate about continuous learning, I stay ahead of industry
+              trends by exploring AI, generative AI, and automation. Whether
+              it’s developing user-centric applications or optimizing enterprise
+              platforms, I thrive on solving complex problems through technology
+              and design.
+            </p>
+            <p class="fade-in">
+              Beyond my professional work, I enjoy knowledge-sharing, mentoring,
+              and exploring emerging technologies that push the boundaries of
+              digital transformation.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills">
+        <div class="section-header">
+          <h2>Skills & Expertise</h2>
+          <div class="separator"></div>
+        </div>
+        <div class="skills-container">
+          <div class="skill-category fade-in">
+            <h3>Specialization</h3>
+            <ul class="skill-list">
+              <li>
+                <span class="skill-name">Enterprise Tech Solutions</span>
+                <span class="skill-bar"><span class="skill-level" style="width: 95%"></span></span>
+              </li>
+              <li>
+                <span class="skill-name">Software, Web & App Development</span>
+                <span class="skill-bar"><span class="skill-level" style="width: 90%"></span></span>
+              </li>
+              <li>
+                <span class="skill-name">UI/UX & Mobility</span>
+                <span class="skill-bar"><span class="skill-level" style="width: 85%"></span></span>
+              </li>
+              <li>
+                <span class="skill-name">AI & NLP</span>
+                <span class="skill-bar"><span class="skill-level" style="width: 80%"></span></span>
+              </li>
+            </ul>
+          </div>
+      
+          <div class="skill-category fade-in">
+            <h3>Technology</h3>
+            <ul class="skill-list">
+              <li>
+                <span class="skill-name">C#.NET, ASP.NET</span>
+                <span class="skill-bar"><span class="skill-level" style="width: 90%"></span></span>
+              </li>
+              <li>
+                <span class="skill-name">Java, C#,  Kotlin, JavaScript</span>
+                <span class="skill-bar"><span class="skill-level" style="width: 85%"></span></span>
+              </li>
+              <li>
+                <span class="skill-name">Cloud & Database</span>
+                <span class="skill-bar"><span class="skill-level" style="width: 88%"></span></span>
+              </li>
+              <li>
+                <span class="skill-name">Android & RESTful service</span>
+                <span class="skill-bar"><span class="skill-level" style="width: 80%"></span></span>
+              </li>
+            </ul>
+          </div>
+      
+          <div class="skill-category fade-in">
+            <h3>Tools</h3>
+            <ul class="skill-list">
+              <li>
+                <span class="skill-name">Android Studio</span>
+                <span class="skill-bar"><span class="skill-level" style="width: 95%"></span></span>
+              </li>
+              <li>
+                <span class="skill-name">Visual Studio</span>
+                <span class="skill-bar"><span class="skill-level" style="width: 85%"></span></span>
+              </li>
+              <li>
+                <span class="skill-name">Visual Studio code</span>
+                <span class="skill-bar"><span class="skill-level" style="width: 80%"></span></span>
+              </li>
+              <li>
+                <span class="skill-name">MS Suite, Xmind, Tableau</span>
+                <span class="skill-bar"><span class="skill-level" style="width: 80%"></span></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      
+
+      <section id="projects" class="projects">
+        <div class="section-header">
+          <h2>Featured Projects</h2>
+          <div class="separator"></div>
+        </div>
+        <div class="projects-grid">
+          <!-- Project 1: StyloGenie -->
+          <div class="project-card fade-in">
+            <div class="project-image">
+              <img
+                src="./Assets/Stylogenie.webp"
+                alt="StyloGenie"
+              />
+            </div>
+            <div class="project-info">
+              <h3>StyloGenie - AI Wardrobe Management</h3>
+              <p>
+                An intelligent digital wardrobe platform that suggests outfits based on user behavior, mood, occasion, and personal style.
+              </p>
+              <div class="project-tags">
+                <span>AI</span>
+                <span>React</span>
+                <span>MongoDB</span>
+              </div>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </div>
+      
+          <!-- Project 2: EntriQ's -->
+          <div class="project-card fade-in">
+            <div class="project-image">
+              <img
+                src="./Assets/EntriQ's.png"
+                alt="EntriQ's"
+              />
+            </div>
+            <div class="project-info">
+              <h3>EntriQ's - Visitor Management System</h3>
+              <p>
+                A smart visitor management system designed for secure and seamless check-ins. It helps organizations track visitor details, streamline entry processes, and enhance security measures.
+              </p>
+              <div class="project-tags">
+                <span>Android</span>
+                <span>.NET API</span>
+                <span>SQL Server</span>
+              </div>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </div>
+      
+          <!-- Project 3: Career AI -->
+          <div class="project-card fade-in">
+            <div class="project-image">
+              <img
+                src="./Assets/Career AI.png"
+                alt="Career AI"
+              />
+            </div>
+            <div class="project-info">
+              <h3>Career AI - Personalized Career Roadmaps</h3>
+              <p>
+                An AI-powered platform that helps users plan their career paths by providing structured roadmaps, learning resources, and skill-based guidance.
+              </p>
+              <div class="project-tags">
+                <span>AI</span>
+                <span>Career Planning</span>
+                <span>Roadmaps</span>
+              </div>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </div>
+
+      
+          <!-- Project 4: Customer Feedback Analysis -->
+          <div class="project-card fade-in">
+            <div class="project-image">
+              <img
+                src="./Assets/Customer feedback analysis.jpg"
+                alt="Customer Feedback Analysis"
+              />
+            </div>
+            <div class="project-info">
+              <h3>Customer Feedback Analysis</h3>
+              <p>
+                AI-powered feedback analysis system that uses sentiment analysis to understand customer opinions and improve business strategies.
+              </p>
+              <div class="project-tags">
+                <span>AI</span>
+                <span>Python</span>
+                <span>Data Science</span>
+              </div>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <section id="contact" class="contact">
+        <div class="section-header">
+          <h2>Get In Touch</h2>
+          <div class="separator"></div>
+        </div>
+        <div class="contact-container">
+          <div class="contact-info fade-in">
+            <h3>Let's work together</h3>
+            <p>
+              I'm currently available for freelance projects, full-time
+              positions, and consulting opportunities. If you'd like to discuss
+              a project or just say hello, feel free to reach out.
+            </p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <span class="contact-label">Email:</span>
+                <a href="mailto:kishorenagarajofficial@gmail.com"
+                  >kishorenagarajofficial@gmail.com</a
+                >
+              </div>
+              <div class="contact-item">
+                <span class="contact-label">Location:</span>
+                <span>Coimbatore, India</span>
+              </div>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/kishorenagaraj" class="social-link" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/KishoreNagaraj-03" class="social-link" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/i__kishor_e" class="social-link" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com" class="social-link" target="_blank">
+                  <i class="fab fa-x-twitter"></i> 
+                </a>
+            </div>
+          </div>
+
+          <form class="contact-form fade-in">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="from_name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="from_email" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+            <!-- ✅ Success/Error message will be displayed here -->
+            <p id="form-message" class="message"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-top">
+          <div class="footer-logo">Portfolio</div>
+          <div class="footer-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Kishore Nagaraj. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
