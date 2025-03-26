@@ -8,7 +8,7 @@
 🚀 Welcome to my **Portfolio Website** repository! This project showcases my work, skills, and experiences.
 
 ## 🔗 Live Demo
-[Visit My Portfolio](https://your-portfolio-url.com)
+[Visit My Portfolio](https://kishoreportfolio-bay.vercel.app/)
 
 ## 📸 Screenshots
 ![Portfolio Homepage](https://your-image-url.com/homepage.png)
@@ -52,3 +52,8 @@ To run the project locally:
 git clone https://github.com/KishoreNagaraj-03/Portfolio.git
 cd Portfolio
 open index.html
+
+## 📞 Contact Me  
+📧 **Email:** [kishorenagarajofficial@gmail.com](mailto:kishorenagarajofficial@gmail.com)  
+🔗 **LinkedIn:** [Your LinkedIn Profile](http://www.linkedin.com/in/kishorenagaraj)  
+
