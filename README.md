@@ -1,9 +1,5 @@
 # 🌟 My Portfolio Website
 
-🚀 Welcome to my **Portfolio Website** repository! This project showcases my work, skills, and experiences.
-
-## 🔗 Live Demo
-[Visit My Portfolio](# 🌟 My Portfolio Website
 
 🚀 Welcome to my **Portfolio Website** repository! This project showcases my work, skills, and experiences.
 
