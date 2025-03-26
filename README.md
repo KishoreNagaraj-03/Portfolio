@@ -22,7 +22,7 @@
 
 ## 📞 Contact Me  
 📧 **Email:** [kishorenagarajofficial@gmail.com](mailto:kishorenagarajofficial@gmail.com)  
-🔗 **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/kishorenagaraj)
+🔗 **LinkedIn:** [KishoreNagaraj](https://www.linkedin.com/in/kishorenagaraj)
 
 ## 🚀 Deployment
 To run the project locally:
